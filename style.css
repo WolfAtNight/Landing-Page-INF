@@ -6,7 +6,7 @@ div.lp {
     height: 100vh;
     text-align: center;
     background-image: url(SAO.jpg);
-    background-size: cover !important;
+    background-size: cover;
     background-position: center;
     margin-bottom: 3%;
 }
