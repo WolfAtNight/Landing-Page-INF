@@ -8,19 +8,26 @@ div.lp {
     background-image: url(SAO.jpg);
     background-size: cover;
     background-position: center;
-    margin-bottom: 3%;
     z-index: 3;
 }
 
-div.getstarted {
+a.getstarted {
     position: absolute;
     margin-top: 60vh;
     margin-left: 5%;
     z-index: 10;
-    color: red;
+    color: black;
     font-size: 60px;
-    border-radius: 5px;
-    border-color: black;
+    border-radius: 10px;
+    border: solid #5c5c5c 5px;
+    background-color: #5c5c5c;
+    padding: 6px;
+    text-decoration: none;
+}
+
+a.getstarted:hover {
+    color: black;
+    border: solid #323232 5px;
 }
 
 e.lptext {
@@ -33,7 +40,7 @@ e.lptext {
     width: 384px;
     color: silver;
     border: solid black 10px;
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 abc {
