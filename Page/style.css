@@ -12,9 +12,20 @@ div.lp {
     z-index: 3;
 }
 
+div.getstarted {
+    position: absolute;
+    margin-top: 60vh;
+    margin-left: 5%;
+    z-index: 10;
+    color: red;
+    font-size: 60px;
+    border-radius: 5px;
+    border-color: black;
+}
+
 e.lptext {
     position: absolute;
-    top: 60%;
+    bottom: 3%;
     border-radius: 20px;
     align-content: center;
     z-index: 1;
